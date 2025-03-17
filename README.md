@@ -1,88 +1,72 @@
-Creating a good README is essential for making your project easy to understand and use. Here is a template for a comprehensive README for the `house-rent` project:
+# 🏡 Housemap
 
-```markdown
-# House Rent
+## 📌 Overview
+Our House-Hunting Platform is a web-based application that enables users to find vacant houses displayed on an interactive map. Users can view property details such as location, rent, and availability. Future updates will include user ratings and reviews.
 
-House Rent is a web application designed to help users find and rent houses. It provides a user-friendly interface for browsing available properties, viewing details, and contacting property owners.
+## 🚀 Features
+- 🗺️ **Interactive Map View** – View available houses plotted on a map.
+- 🏠 **Detailed Property Listings** – Get comprehensive property details, including price, size, and amenities.
+- 📍 **Geolocation Support** – Precise property locations in Ruiru, Kenya.
+- 🛒 **Real-Time Tracking** – Track product movement after checkout.
+- 🔐 **OAuth Authentication** – Secure user authentication using OAuth.
 
-## Table of Contents
+## 🛠️ Tech Stack
+### Frontend
+- ⚛️ React (TypeScript)
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+### Backend
+- 🟢 Node.js (Express.js)
+- 🗄️ MongoDB (Database)
 
-## Features
+### Other Tools
+- 🔑 OAuth (User Authentication)
+- 🎨 Tailwind CSS (Styling)
+- 🚀 Docker (Deployment)
 
-- **User Authentication**: Secure login and registration for users.
-- **Property Listings**: Browse and search through available properties.
-- **Detailed Property Information**: View detailed information about each property, including photos and descriptions.
-- **Contact Owners**: Send inquiries to property owners directly through the platform.
-- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
-
-## Installation
-
-To install and run this project locally, follow these steps:
-
-1. **Clone the repository:**
-    ```sh
-    git clone https://github.com/wenakanew/house-rent.git
-    cd house-rent
-    ```
-
-2. **Install the dependencies:**
-    ```sh
-    npm install
-    ```
-
-3. **Set up environment variables:**
-    Create a `.env` file in the root directory and add the necessary environment variables (e.g., database connection strings, API keys).
-
-4. **Run the application:**
-    ```sh
-    npm start
-    ```
-
-## Usage
-
-Once the application is running, you can access it at `http://localhost:3000`. From there, you can:
-
-- Register a new account or log in with an existing account.
-- Browse the available property listings.
-- View detailed information about each property.
-- Contact property owners for more information or to schedule a visit.
-
-## Contributing
-
-We welcome contributions from the community! If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix:
-    ```sh
-    git checkout -b my-feature-branch
-    ```
-3. Make your changes and commit them:
-    ```sh
-    git commit -m "Add new feature"
-    ```
-4. Push your changes to your forked repository:
-    ```sh
-    git push origin my-feature-branch
-    ```
-5. Open a pull request on the main repository.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Contact
-
-If you have any questions or suggestions, feel free to contact us at:
-
-- **Email**: support@houserent.com
-- **GitHub Issues**: [wenakanew/house-rent/issues](https://github.com/wenakanew/house-rent/issues)
-
-We hope you enjoy using House Rent!
+## 📂 Project Structure
 ```
+/house-hunting-platform
+│── backend
+│   ├── server.js
+│   ├── models
+│   ├── routes
+│── frontend
+│   ├── src
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── assets
+│── README.md
+```
+
+## 👨‍💻 Developers
+- **Obadiah Kigen**
+- **Bahati Swiga**
+- **James Ekisa**
+- **Kaniu Jeffray**
+- **Victor Muthomi**
+- **David Momanyi**
+
+## 📜 License
+This project is licensed under the MIT License.
+
+## 💡 How to Run
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/momanyid/housemap.git
+cd housemap
+```
+### 2️⃣ Install Dependencies
+```bash
+cd housemap && npm install
+```
+### 3️⃣ Start the Application
+```bash
+npm run dev
+```
+
+## 🎯 Future Enhancements
+- ⭐ User reviews & ratings
+- 🏗️ House owner dashboard
+- 📊 Advanced filtering options
+
+Enjoy house-hunting with ease! 🏠🚀
